@@ -13,7 +13,7 @@
 
         public string SpeedUp()
         {
-            return this.name + ": speed up " + this.speed + "km/h";
+            return $"{name}: speed up {speed}km/h";
         }
     }
 }
